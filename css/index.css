@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  margin: 50px;
+  background-color: #2a1a63;
+}
+
+.title {
+  width: 100%;
+  padding: 15px;
+  background-color: #634abd;
+  color: #000;
+  font-size: 2rem;
+}
+
+.letter {
+  color: yellow;
+  font-size: 2rem;
+}
+
+p {
+  color: yellow;
+  padding: 50px;
+}
+
+main {
+  background-color: #917be0;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 0 0 30px;
+}
+
+#hdos {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.result {
+  background-color: #634abd;
+  width: 200px;
+  height: 200px;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.result h2 {
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+/*# sourceMappingURL=index.css.map */
