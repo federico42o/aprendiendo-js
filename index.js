@@ -14,12 +14,17 @@ var peso_final;
 
     btn.addEventListener('click', function() {
     let userWeight = document.getElementById('input').value;
+   
       if (opcion === 'jupiter') {
         peso_final = (userWeight * grav_jupiter)/ grav_tierra;
+        let newText = document.getElementById('hdos')
+        newText.innerText = 'Tu peso en Jupiter es '  
         console.log(peso_final)
       } else  {
         peso_final = (userWeight * grav_marte)/ grav_tierra;
         console.log(peso_final)
+        let newText = document.getElementById('hdos')
+        newText.innerText = 'Tu peso en Jupiter es '
       } 
      
       let printIn = document.getElementById('peso_en_planeta');
@@ -30,7 +35,12 @@ var peso_final;
     
   })
   
+  window.onload = function(){
+    let loade = document.getElementById("cssload-container")
 
+    loade.style.visibility = 'hidden';
+    loade.style.opacity = '0'
+  }
   
   // if (options[0] === 'tierra'){
   //     let calc1 = Math.round(userWeight * grav_tierra);
